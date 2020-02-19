@@ -99,10 +99,6 @@ LAST_LINE_LABELS = (
 
 AMBIGUOUS_LABELS = (
     'Recipient',
-    'USPSBoxType',
-    'USPSBoxID',
-    'USPSBoxGroupType',
-    'USPSBoxGroupID',
     'NotAddress'
 )
 

@@ -233,8 +233,12 @@ def clean_upper(text,                           # type: Any
     join_char = ' '
     if strip_spaces:
         join_char = ''
+
+    # add space between BOX if there isn't one
+    text = join_char.join(text.split()).upper().partition('BOX')
+
     # remove extra spaces and convert to uppercase
-    return join_char.join(text.split()).upper()
+    return 
 
 
 def clean_period_char(text):
